@@ -1,0 +1,138 @@
+/* App.css */
+.api-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #3399ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+/* App.css */
+.data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .scrollable {
+    width: 80%;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .item h2 {
+    margin: 0;
+    flex: 1; /* Flex to fill remaining space */
+    white-space: nowrap; /* Prevent line break */
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowed text */
+  }
+  
+  .item-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .delete-button {
+    color: #ff3333;
+    margin-right: 10px;
+  }
+  
+  .edit-button {
+    color: #3399ff;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* .data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item h2 {
+    margin: 0;
+  }
+  
+  .item-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .delete-button {
+    color: #ff3333;
+  }
+  
+  .edit-button {
+    color: #3399ff;
+  } */
+  
+
